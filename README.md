@@ -1,4 +1,4 @@
-IBM MobileFirst Platform Foundation
+IBM MobileFirst App
 ===
 ## MobileFirst Sample
 A sample application demonstrating MobileFirst.
