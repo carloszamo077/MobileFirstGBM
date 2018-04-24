@@ -1,0 +1,1 @@
+var WL_CHECKSUM = {"checksum":0,"date":1524602370614,"machine":"L540-CZRAMIREZ"}
