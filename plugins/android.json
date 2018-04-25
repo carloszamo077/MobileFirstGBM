@@ -15,6 +15,9 @@
         },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.gbm.mobilefirst.example"
+        },
+        "cordova-plugin-mfp-push": {
+            "PACKAGE_NAME": "com.gbm.mobilefirst.example"
         }
     },
     "dependent_plugins": {

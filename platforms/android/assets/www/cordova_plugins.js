@@ -53,6 +53,14 @@ module.exports = [
         "clobbers": [
             "navigator.splashscreen"
         ]
+    },
+    {
+        "id": "cordova-plugin-mfp-push.MFPPush",
+        "file": "plugins/cordova-plugin-mfp-push/www/MFPPush.js",
+        "pluginId": "cordova-plugin-mfp-push",
+        "clobbers": [
+            "MFPPush"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -64,7 +72,8 @@ module.exports.metadata =
     "cordova-plugin-okhttp": "2.0.0",
     "cordova-plugin-mfp": "8.0.2018040508",
     "cordova-plugin-splashscreen": "3.2.2",
-    "cordova-plugin-whitelist": "1.3.3"
+    "cordova-plugin-whitelist": "1.3.3",
+    "cordova-plugin-mfp-push": "8.0.2018040410"
 };
 // BOTTOM OF METADATA
 });

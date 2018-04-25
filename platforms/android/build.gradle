@@ -89,6 +89,7 @@ ext {
 
 // PLUGIN GRADLE EXTENSIONS START
 apply from: "cordova-plugin-mfp/example-build-extras.gradle"
+apply from: "cordova-plugin-mfp-push/example-build-extras.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras = file('build-extras.gradle').exists()
@@ -251,6 +252,7 @@ dependencies {
     debugCompile(project(path: "CordovaLib", configuration: "debug"))
     releaseCompile(project(path: "CordovaLib", configuration: "release"))
     compile "com.squareup.okhttp:okhttp-urlconnection:2+"
+    compile "com.google.android.gms:play-services-gcm:+"
     // SUB-PROJECT DEPENDENCIES END
 }
 

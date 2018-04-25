@@ -17,6 +17,9 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="MFPPushPlugin">
+        <param name="android-package" value="com.ibm.mobilefirstplatform.clientsdk.cordovaplugins.push.CDVMFPPush" />
+    </feature>
     <feature name="OkHttpPlugin">
         <param name="android-package" value="com.google.cordova.OkHttpPlugin" />
         <param name="onload" value="true" />
@@ -78,10 +81,10 @@
     </feature>
     <name>MobileFirstGBM</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        A testing application for MobileFirst.
     </description>
     <author email="developer@yourcompany.com" href="https://yourcompany.com">
-        Your Company Team
+        GBM
     </author>
     <content src="index.html" />
     <access origin="*" />
@@ -92,7 +95,7 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <mfp:android>
-        <mfp:sdkChecksum>0</mfp:sdkChecksum>
+        <mfp:sdkChecksum>3308029348</mfp:sdkChecksum>
         <mfp:appChecksum>0</mfp:appChecksum>
         <mfp:security>
             <mfp:testWebResourcesChecksum enabled="false" ignoreFileExtensions="png, jpg, jpeg, gif, mp4, mp3" />
@@ -126,9 +129,9 @@
         </mfp:windows10>
         <mfp:appChecksum>0</mfp:appChecksum>
     </mfp:windows>
-    <mfp:platformVersion />
+    <mfp:platformVersion>8.0.0.00-20180405-080909</mfp:platformVersion>
     <mfp:clientCustomInit enabled="false" />
-    <mfp:server runtime="mfp" url="http://10.0.0.1:9080" />
+    <mfp:server runtime="mfp" url="http://localhost:9080" />
     <mfp:directUpdateAuthenticityPublicKey />
     <mfp:languagePreferences>en</mfp:languagePreferences>
     <allow-intent href="market:*" />

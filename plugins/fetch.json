@@ -54,5 +54,13 @@
         },
         "is_top_level": false,
         "variables": {}
+    },
+    "cordova-plugin-mfp-push": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-mfp-push"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }

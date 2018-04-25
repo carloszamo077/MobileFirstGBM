@@ -1,9 +1,9 @@
-IBM MobileFirst App
+MobileFirstApp
 ===
 ## MobileFirst Sample
 A sample application demonstrating MobileFirst.
 
 ### Supported Levels
-IBM MobileFirst Platform Foundation 8.0
+MobileFirst 8.0
 
 
